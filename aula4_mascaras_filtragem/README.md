@@ -14,8 +14,7 @@ Substitui o valor do pixel pela média aritmética da vizinhança. Útil para ru
 ![Texto Alternativo](./fotos/image2.png)
 ### *3. Filtro de Mediana:*
  Substitui o valor pelo valor central da vizinhança ordenada. É o método mais eficaz para eliminar o ruído.
-* **Eficácia:** É extremamente eficiente na remoção de ruído "Sal e Pimenta" (pontos pretos e brancos), pois esses valores extremos são descartados ao selecionar o valor central da amostra 
-    ordenada.
+* **Eficácia:** É extremamente eficiente na remoção de ruído "Sal e Pimenta" (pontos pretos e brancos), pois esses valores extremos são descartados ao selecionar o valor central da amostra ordenada.
 
 ![Texto Alternativo](./fotos/image1.png)
 * **Sal e Pimenta:**
