@@ -28,6 +28,9 @@ Substitui o valor do pixel pela média aritmética da vizinhança. Útil para ru
  ### *1. Gradiente*   
  Computa as derivadas parciais nas duas direções(x e y). Nas regiões de borda, como o gradiente é alto, temos a extração da borda.
  ![Texto alternativo](./fotos/image4.png)
+ Como não podemos aplicar derivadas matemáticas em uma grade de pixels, usamos máscaras 3x3 que funcionam como uma aproximação. As mais famosas são:
+ * -->Prewitt
+ * -->Sobel
   ### *2. Laplaciano* 
   Nos mostra a **segunda derivada**. Ele serve para destacar as áreas de alta frequência(detalhes e contornos),permitindo que médicos visualizem melhor estruturas pequenas que podem estar levemente borradas na imagem original, como microcalcificações ou fissuras ósseas. 
   ![Texto Alternativo](./fotos/image5.png)
