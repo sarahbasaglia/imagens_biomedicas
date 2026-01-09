@@ -1,4 +1,6 @@
 ## Aula 6: Processamento de imagem no domínio da frequência
+### Objetivos
+Implementar e analisar o desempenho de filtros digitais Passa-Baixa (Ideal e Butterworth) no domínio da frequência. O projeto visa explorar a manipulação do espectro de Fourier ($F(u,v)$) para realizar operações de filtragem, garantindo a correta aplicação de técnicas de padding para evitar artefatos de borda e otimizar a reconstrução da imagem final ($g(x,y)$).
 ### Contexto
 * Cada imagem possui uma distribuição de energia diferente no domínio da frequência.
 * **Ponto central:** em todos os espectros, o centro é o ponto mais brilhante, que representa a **frequência zero (componente DC)**, onde se concentra a **maior** parte da energia da imagem (as baixas frequências que definem a forma geral).
