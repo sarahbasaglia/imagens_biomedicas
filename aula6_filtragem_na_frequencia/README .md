@@ -24,7 +24,7 @@ Na transformada de Fourier centralizada, as informações das imagens são organ
 * **Banda passante plana:** dentro dos valores de frequência que o filtro deixa passar, este por sua vez não altera nenhum valor de frequência dentro deste limite. 
 * No filtro Ideal, a transição é um degrau perfeito.**Matematicamente:** Se a distância do ponto for $10,001$ e sua frequência de corte ($D_0$) for $10$, aquele ponto é multiplicado por 0 e desaparece instantaneamente.<br>
 * **Consequência:** a mudança súbita no domínio da frequência causa o fenômeno denominado **Fenômeno de Gibs**. Ele cria ondas ao redor das bordas da imagem. 
-#### [Código para filtro ideal](mascara_ideal.py)
+#### [Código para filtro ideal](filtro_ideal.py)
 ### Efeito da frequência de corte na imagem
 Aumentar a frequência de corte para um filtro Passa-Baixas ideal faz com que uma maior quantidade de frequência passe. Sendo assim, mantemos a imagem no seu formato inicial.<br>
 ![Texto Alternativo](./imagens/image_3.jpeg)

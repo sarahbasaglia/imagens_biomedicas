@@ -15,7 +15,8 @@ def mascara_ideal2D(M,N,fc):
             dist_x = c - (N/2)
             dist_y = l - (M/2)
             #módulo das distâncias seria o raio em relação ao centro da imagem
-            D = np.math.sqrt(dist_x**2 + dist_y**2)
+            D = np.sqrt(dist_x**2 + dist_y**2)
             if D<=D0:
-                H_ideal[l,c] = 1 + 0j #coloca 1 se obedecer o if
+                H_ideal[l,c] = 1 + 0*(-1)**0.5 #coloca 1 se obedecer o if
+    #H_ideal é complexo - criada como complex
     return H_ideal
