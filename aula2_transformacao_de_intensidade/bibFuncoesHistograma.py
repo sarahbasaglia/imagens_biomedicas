@@ -1,4 +1,4 @@
-#fazer uma função que retorna um vetor histograma com 256 posições, contendo a contagem de pixel para cada intensidade
+#fazer uma função que retorna um vetor hisstograma com 256 posições, contendo a contagem de pixel para cada intensidade
 def fazer_histograma(imagem , x, y):
     import numpy as np
     #declarando vetor histograma: inicialmente vazio 
