@@ -1,6 +1,6 @@
 #CORRELAÇÃO, CONVOLUÇÃO E KERNEL
 
-#%%QUESTÃO 1: fazer dois vetores
+#%%QUESTÃO 1: fazer dois vetoresS
 import numpy as np
 
 w = np.array([1,2,3,2,8]) # em Python não existe vetores. A estrutura (lista = [x,y,z]) funciona como lista, e não como vetor. Então usamos o array para trabalhar com vetores. #kernel
