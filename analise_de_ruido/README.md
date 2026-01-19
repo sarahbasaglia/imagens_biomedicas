@@ -21,6 +21,8 @@ Valores aleatórios que alteram de forma destrutiva as intensidades originais da
 
 ## Histograma 
 Reproduz a distribuição de valores de intensidade.
+
+
 ![texto laternativo](./image/image_2.png)
 ## Avalição de filtros 
 ### 1. Degradação
